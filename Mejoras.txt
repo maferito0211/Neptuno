@@ -1,0 +1,43 @@
+Formulario de Ingreso al Sistema:
+1. Si es el cumpleaños de algún empleado, manda un mensaje de "Feliz cumpleaños -nombre del empleado-".
+2. El formulario aparece en el centro de la pantalla.
+3. El FrmIngreso desaparece cuando ya se se ingresa con la contraseña correcta.
+
+Clientes:
+4. Al rellenar los JTextField de NombreCompañía, NombreContacto, Cargo, Dirección y Ciudad agregué que tambien se puedan poner algunos caracteres especiales que están en la base de datos.
+5. Al dar clic en la tabla, si tiene algún espacio vacío el dato se recoge como null. Esto saltaba con error en lo que hicimos en clase.
+6. Tiene un botón para visualizar en grande toda la base de datos.
+
+Empleados:
+7. Añadí un TextArea para la parte de notas.
+8. Se puede buscar en la tabla por distintos parámetros dependiendo de la opción que escogas en el combo box.
+
+Compañía de Envíos:
+9. El txt que tiene el ID se rellena automáticamente con el siguiente de acuerdo a la base da datos.
+10. El txtTeléfono permite ingresar números de varios países con paréntesis. Ej: (502) 984-488.
+
+Proveedores:
+11. El txtNombreCompañía te deja ingresas nombres que contengan '
+12. Ajusté el tamaño de las columnas en la tabla junto con un scroll horizontal para ver mejor la información extensa.
+
+Categorías:
+13. Te pregunta si deseas guardar antes de salir (si hay algún txt lleno) al darle clic en cerrar.
+14. La foto se autoajusta al tamaño del label con librería RSScaleLabel.
+
+Productos:
+15. Corregí el error que ocurría en la clase Productos cuando recogía información de la base de datos que contuviera una '
+16. Al recoger los datos de la tabla los cbx te dan el nombre en vez del ID.
+17. Al pasar el mouse por algún botón aparece un tooltiptext que indica que hacen.
+
+Factura:
+18. Se rellena automáticamente la descripcion, Precio, Subtotales, Descuento y Total.
+19. No te deja seleccionar más cantidad de la que haya de un Producto.
+20. Si no hay ninguna unidad de un producto aparece un JOptionPane.
+
+Reporte de los 10 mejores clientes:
+21. Se puede visualizar el IDCliente, NombreContacto, Pais o el teléfono dependiendo de la opción seleccionada en el ComboBox.
+22. Se puede ver los X mejores clientes.
+
+Reporte de Ventas por Categoría:
+23. Al darle clic a la tabla de ventas por categoría una segunda tabla te muestra los productos de esa categoría.
+24. Se seleccionan las fechas desde un calendario. JCalendar.
